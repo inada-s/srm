@@ -11,7 +11,7 @@
 #include <cmath>
 #include <string>
 using namespace std;
-#define rep(i,n) for(int i=(a);i<(n);++i)
+#define rep(i,n) for(int i=0;i<(n);++i)
 #define dump(x)  cout<<#x<<" = "<<(x)<<endl;
 const double EPS = 1e-10;
 const double PI = acos(-1.0);
