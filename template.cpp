@@ -2,6 +2,7 @@
 #include <set>
 #include <map>
 #include <deque>
+#include <qeque>
 #include <stack>
 #include <algorithm>
 #include <functional>
@@ -13,6 +14,8 @@
 using namespace std;
 #define rep(i,n) for(int i=0;i<(n);++i)
 #define dump(x)  cout<<#x<<" = "<<(x)<<endl;
+inline int toInt(string s) {int v; istringstream sin(s);sin>>v;return v;}
+template<class T> inline string toString(T x) {ostringstream sout;sout<<x;return sout.str();}
 const double EPS = 1e-10;
 const double PI = acos(-1.0);
 const int INF = 1<<30;
